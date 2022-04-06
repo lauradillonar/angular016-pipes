@@ -1,0 +1,40 @@
+ul{
+    list-style: none;
+}
+
+.wrapperOut {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding-bottom: 5%;
+    justify-content: center;
+    margin-left: 10px;
+}
+
+.wrapperIn {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    width: 50%;
+    background-color: aqua;
+    min-width: 535px;
+}
+
+.circular{
+    display: inline-block;
+    position: relative;
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.circular img {
+    width: 100%;
+    height: auto;
+}
+
+.contenido {
+    display: block;
+}
