@@ -33,4 +33,8 @@ export class AppComponent {
   }
 
   today = Date.now();
+
+  numeros = '123456789';
+
+  pi = '3.1415926535';
 }

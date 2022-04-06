@@ -71,3 +71,17 @@
     <h1>{{ today | date: "dd-MM-yyyy" }}</h1>
   </div>
 </div>
+
+<div class="wrapperOut">
+  <h3>Slice Pipe</h3>
+  <div class="wrapperIn">
+    <h1>{{ numeros | slice: 1:5 }}</h1>
+  </div>
+</div>
+
+<div class="wrapperOut">
+  <h3>DecimalPipe</h3>
+  <div class="wrapperIn">
+    <h1>{{ pi | number: "1.2-4" }}</h1>
+  </div>
+</div>
